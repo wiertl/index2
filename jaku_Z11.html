@@ -1,0 +1,76 @@
+  <!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+<meta charset="utf-8">
+<title>Zadanie 11 CSS Jakubiak </title>
+</head>
+<body>
+<h1>Rodzaje selektorów</h1>
+<h4><u>1)selektor prosty (selektor typu)</h4>
+<h4>2)selektor uniwersalny</h4>
+<h4>3)selektor potomka</h4>
+<h4>4)selektor dziecka</h4>
+<h4>5)selektor braci</h4>
+<h4>6)selektor atrybutu</u></h4>
+      <h4>a)prosty selektor atrybutu</h4>
+      <h4>b)selektor atrybutu o określonej wartości</h4>
+      <h4>c)selektor atrybutu zawierający określony wyraz</h4>
+<h4>7)selektory specjalne</h4>
+      <h4>a)selektor klasy</h4>
+      <h4>b)pseudoklasyk</h4>
+      <h4>c)selektory pseudoelementów</h4>
+<h4>-pierwsza linia</h4>
+<h4>-pierwsza litera</h4>
+<h4><u>Rodzaj pierwszy</u></h4>
+<h1>Selektory proste nazywany inaczej <u>selektor typu</u></h1>
+<textarea rows="6" cols="80">
+p
+ {
+ color:red;
+ font-size:14pt;
+ }
+</textarea>
+<h4><u>Selektorem prostym</u> jest znaczniki języka XHTML/HTML (np. p, h3, table, img) przypisany
+do elementu, który chcesz w danym momencie formatować.
+Styl zdefiniowany dla przykładowego selektora p będzie odnosił się wyłącznie do
+akapitów zamkniętych w znacznikach <p></p> i nie będzie wpływał na pozostałe elementy
+strony WWW.</h4>
+<h4><u>Rodzaj drugi</u></h4>
+<h1>Selektor uniwersalny</h1>
+Składnia teoretyczna:
+<textarea rows="3" cols="80">
+* { cecha: wartość } 
+    </textarea>
+<h4>Cecha (ang. property) oraz wartość (ang. value) określają atrybuty elementu.
+Selektor taki pozwala ustalić określone atrybuty dla wszystkich elementów strony, a więc dla
+różnych selektorów typu. Możemy za pomocą tej komendy nadać to samo formatowanie dla
+wszystkich elementów na całej stronie, niezależnie od ich typu (p, h1, li itd.).</h4>
+<h4><b><u>Uwaga1</u></b></h4>
+<h4>Niestety jego działanie nie zawsze jest jednoznaczne, dlatego dużo <u>bezpieczniej jest używać
+selektora typu dla elementu body</u>, chyba że zastosujemy to polecenie w odniesieniu do klasy
+selektorów.</h4>
+<h4><b><u>Uwaga2</u></b></h4>
+<h4>Jeśli selektor uniwersalny chcemy zastosować do selektora innego niż selektor typu (w
+połączeniu z selektorami: atrybutów, specjalnymi, pseudoelementów lub pseudoklas), to
+gwiazdkę można pominąć.</h4>
+<h4><b><u>Przykład</u></b></h4>
+<h4>Zdarza się, że zachodzi potrzeba zdefiniowania jakiegoś typu formatowania w ten sposób, aby
+zadziałał on na cały dokument. Bardzo dobrym przykładem takiej sytuacji może być tło, które
+zazwyczaj powinno być identyczne dla całego dokumentu. Odpowiedni styl może przyjąć
+następującą postać:</h4>
+    <textarea rows="10" cols="40">
+body
+{
+color:red; /* kolor czcionki */
+font-size:14pt; /* wielkość czcionki */
+}
+     </textarea>
+<h4>inny sposób zamiast selektora uniwersalnego stosujemy znak *</h4>
+<textarea rows="10" cols="40">
+*
+{
+background-color:white; /* kolor tła */
+}
+</textarea>
+</body>
+</html>

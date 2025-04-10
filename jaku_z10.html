@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+<meta charset="utf-8">
+<title>Zadanie 10 CSS Jakubiak </title>
+</head>
+<body>
+  <h1><b>Budowa stylu→selektory</b></h1>
+  <h5><b>Selektory są elementami arkusza CSS.</b></h5>
+    <textarea rows="10" cols="80">
+selektor {cecha: wartość; cecha: wartość;  …..;} 
+    </textarea>
+<h5>Każda reguła odnosi się do konkretnego elementu (znacznika) i składa się z dwóch części: </h5>
+<h5>• selektora</h5>  
+<h5>• deklaracji.</h5>
+<h5><b>Selektor</b> określa do jakich elementów ma zostać przypisane formatowanie. np. p h1 </h5>
+<h5><b>Deklaracja</b> jest umieszczona w nawiasie klamrowym {...} i podaje to formatowanie.  </h5>
+<h5>Każda deklaracja składa się z: </h5>
+<h5>• przynajmniej z jednego zespołu <b>cecha</b> lub inaczej własność albo właściwość (ang. 
+property) </h5>
+<h5>• <b>wartość</b> (ang. value), przy czym można podać dowolną liczbę, rozdzielając kolejne 
+znakiem średnika (;).  
+<u>Średnik na końcu deklaracji nie jest konieczny.</u>
+Każda grupa elementów (znaczników np. <body>  <p>  <b>) ma określony zespół cech CSS, 
+które można jej przypisać. </h5> 
+<h5>Każda cecha ma ściśle wyszczególnioną listę wartości, które może przyjąć.  
+Na przykład: cecha text-align (wyrównanie tekstu) może być przypisana tylko i wyłącznie do 
+elementów blokowych, ponieważ podanie jej dla elementów wyświetlanych w linii nie 
+miałoby sensu. Z drugiej strony cecha ta może przyjmować tylko wartości takie jak: left, 
+right, center, justify. Przypisanie do niej np. wartości koloru nie miałoby sensu. </h5>
+<h5><u>Przykład1: </u></h5>
+<h5>p { color: red; } </h5>
+<h5><u>selektorem</u> jest znacznik p,  </h5>
+<h5><u>deklaracja</u> ma postać { color: red }.  </h5>
+<h5><u>cechą</u> jest color,  </h5>
+<h5><u>wartością</u> red. </h5>
+<h5><u>Przykład2:</u></h5>
+<h5>p b { color: red; background-color: yellow } </h5>
+<h5><u>Selektorem</u> jest zestawienie znaczników p b.</h5>  
+<h5><u>Deklaracja</u> zawiera dwa zespoły cecha-wartość. </h5>
+<h5><u>Uwaga:</u>
+W MSIE 8.0 i starszych jeden plik arkusza CSS może zawierać tylko 4095 selektorów, przy 
+czym w listach każdy selektor liczy się osobno - następne deklaracje zostaną pominięte!  
+W przypadku przekroczenia tej granicy, jedynym rozwiązaniem jest podział arkusza CSS na 
+kilka osobnych plików, ale nie więcej niż 31.</h5>
+</body>
+</html>

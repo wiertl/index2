@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+<meta charset="utf-8">
+<title>Zadanie 4 CSS Jakubiak </title>
+</head>
+<body>
+ <b>
+<h1><b>1)<u>Zewnętrzny</u> arkusz stylów.</b></h1>
+<textarea rows="5" cols="80">
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" />
+</head>
+</textarea>
+<h1><b>2)Styl <u>lokalny</u> inaczej: (styl wpisany, liniowy, linijkowy, w linii)  czyli 
+dopisanie arkusza do wybranego bloku treści strony.</b> </h1>
+    <textarea rows="12" cols="80">
+<head>
+(...)
+<style type="text/css">
+/* <![CDATA[ */
+selektor1 { cecha: wartość; cecha2: wartość2... }
+selektor2 { cecha: wartość; cecha2: wartość2... }
+(...)
+/* ]]> */
+</style>
+(...)
+</head>
+    </textarea>
+<h1>3)<u>Wewnętrzny</u> arkusz stylów.</h1>
+<textarea rows="10" cols="80">
+<head> 
+<style type="text/css"> 
+selektor1 { cecha: wartość; cecha2: wartość2... } 
+selektor2 { cecha: wartość; cecha2: wartość2... } 
+</style> 
+</head> 
+</textarea>
+<h1>4)<u>Alternatywny</u> arkusz stylów.</h1>
+<textarea rows="10" cols="80">
+<head> 
+<link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" /> 
+<link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" /> 
+<link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" /> 
+</head> 
+</textarea>
+<h1>5)<u>Import</u> arkusza stylów.</h1>
+<textarea rows="5" cols="80">
+<style type="text/css"> 
+@import url(adres zewnętrznego arkusza stylów); 
+</style> 
+</textarea>
+</b>
+</body>
+</html>
