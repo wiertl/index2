@@ -1,0 +1,17 @@
+p {
+color: red;
+font-size: 22pt;
+ }
+
+p#gruby_jakubiak {
+
+color: green;
+font-size: 17pt;
+}
+
+#dlawszystkich_jakubiak{
+
+color: yellow;
+font-size: 17pt;
+font-weight: bold;
+}

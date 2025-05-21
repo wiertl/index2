@@ -1,0 +1,32 @@
+p#pogrubienie_jaku{
+font-size: 33px;
+color: rgb(130,97,203);
+}
+
+p#pochylona_jaku{
+font-size: 38pt;
+color: rgb(230,197,103);
+}
+
+p#index_gorny_jaku{
+font-size: 1.3cm;
+color: rgb(150,147,23);
+}
+
+p#index_dolny_jaku{
+font-size: 2.1cm;
+color: rgb(50,247,23);
+}
+
+p#mono_jaku{
+font-size: 43px;
+color: rgb(22,227,103);
+}
+
+p#powiekszenie_jaku{
+color: rgb(80,67,153);
+}
+
+p#pomniejszenie_jaku{
+color: rgb(180,167,53);
+}
