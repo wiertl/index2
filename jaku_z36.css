@@ -1,0 +1,65 @@
+    body {
+      background-color: aqua; 
+      margin: 25px;
+      font-family: Arial;
+    }
+
+
+    .d1 {
+      height: 5px;
+      background-color: black;
+      width: 100%;
+      border: none;
+    }
+
+    .d2 {
+      height: 7px;
+      background-color: red;
+      width: 75%;
+      border: none;
+    }
+
+    .d3 {
+      height: 3px;
+      background-color: purple;
+      width: 60%;
+      border: none;
+    }
+
+
+    h1 {
+      text-align: center;
+      background-color: red; 
+      padding: 20px;
+      font-size: 32px;
+      border-top: 7px inset black;
+      border-right: 7px dashed black;
+      border-bottom: 7px double black;
+      border-left: 7px dotted black;
+      margin: 20px auto;
+      width: 50%;
+    }
+
+
+    h2 {
+      text-align: center;
+      background-color: pink; 
+      padding: 10px;
+      font-size: 26px;
+      border-top: 3px solid orange;
+      border-right: 3px solid green;
+      border-bottom: 3px solid olive;
+      border-left: 3px solid navy;
+      margin: 20px auto;
+      width: 70%;
+    }
+
+    h3 {
+      text-align: center;
+      background-color: yellow; 
+      padding: 8px;
+      font-size: 22px;
+      border: 3px ridge black;
+      margin: 20px auto;
+      width: 40%;
+    }
